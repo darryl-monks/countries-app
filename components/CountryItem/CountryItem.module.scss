@@ -1,0 +1,24 @@
+.c-country {
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 .25em .5em var(--shadow);
+  border-radius: .5em;
+  overflow: hidden;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__flag {
+    position: relative;
+    font-size: 0;
+  }
+
+  &__details {
+    padding: 1.5em;
+    
+    ul {
+      margin-top: 1em;
+    }
+  }
+}

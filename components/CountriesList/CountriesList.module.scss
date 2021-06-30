@@ -1,0 +1,13 @@
+.c-countries-list {
+  display: grid;
+  padding: 0 3em;
+  gap: 3em;
+
+  @media (min-width: 540px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
