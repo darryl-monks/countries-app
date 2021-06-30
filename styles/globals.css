@@ -28,6 +28,7 @@ ul {
 button {
   border: none;
   color: var(--font-color);
+  cursor: pointer;
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
