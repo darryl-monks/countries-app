@@ -1,7 +1,7 @@
 .c-countries-list {
   display: grid;
-  padding: 0 3em;
-  gap: 3em;
+  padding: 0 1.5em;
+  gap: 1.5em;
 
   @media (min-width: 540px) {
     grid-template-columns: 1fr 1fr;

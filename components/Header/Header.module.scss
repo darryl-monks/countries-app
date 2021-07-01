@@ -1,13 +1,13 @@
 .c-site-header {
   display: flex;
   height: 5em;
-  padding: 1em;
+  padding: 0 1.5em;
   align-items: center;
   background-color: var(--secondary-bg-color);
   box-shadow: 0 .25em .5em var(--shadow);
 
   &__logo {
     flex-grow: 1;
-    font-size: 0.8750em;
+    font-size: 1em;
   }
 }

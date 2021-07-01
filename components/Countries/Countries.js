@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Search from '../Search/Search'
-import Region from '../Region/Region'
 import CountryList from '../CountriesList/CountriesList'
 
 export default function Countries({countries}) {
@@ -13,8 +12,6 @@ export default function Countries({countries}) {
       <Search 
         query={query}
         setQuery={setQuery}
-      />
-      <Region
         setRegion={setRegion}
       />
       <CountryList
