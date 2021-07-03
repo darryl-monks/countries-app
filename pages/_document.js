@@ -23,9 +23,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet" />
+          <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" as="font" />
         </Head>
         <body>
           <script dangerouslySetInnerHTML={{ __html: setActiveTheme }} />
