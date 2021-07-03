@@ -9,6 +9,7 @@ export default function CountriesList({countries}) {
           <CountryItem
             key={id}
             flag={flag}
+            preloadFlag={id < 6}
             name={name}
             code={alpha3Code.toLowerCase()}
             population={population}

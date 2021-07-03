@@ -25,7 +25,7 @@ export default function Country({country, borderCountries}) {
       </Head>
 
       <div className="c-country-flag">
-        <Image src={flag} alt={name} width='300' height='200' layout='responsive' objectFit="cover" />
+        <Image src={flag} alt={name} width='300' height='200' layout='responsive' objectFit='cover' priority='true' />
       </div>
 
       <div className="c-country-details">
