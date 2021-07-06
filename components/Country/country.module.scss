@@ -1,0 +1,37 @@
+.c-country-flag {
+  margin-top: 1.5em;
+  border-radius: .5em;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+.c-country-details {
+  margin-top: 1.5em;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+    width: 50%;
+    padding-left: 2em;
+  }
+
+  ul {
+    margin-top: 1.5em;
+  }
+}
+
+.c-country-borders {
+  margin-top: 1.5em;
+
+  a {
+    margin-top: 1em;
+  }
+
+  a:not(:first-child) {
+    margin-right: 1em;
+  }
+}

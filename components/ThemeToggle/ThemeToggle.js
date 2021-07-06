@@ -9,7 +9,13 @@ export default function ThemeToggle() {
     window.localStorage.setItem('theme', activeTheme);
   }, [activeTheme])
 
+  function formattedThemeName() {
+    const firstCharacter = inactiveTheme.charAt(0).toUpperCase()
+    const restOfWord = inactiveTheme.slice(1)
+    return firstCharacter + restOfWord;
+  }
+
   return (
-    <button className={`c-theme-toggle c-theme-toggle--${activeTheme}`} onClick={() => setActiveTheme(inactiveTheme)}>Dark Mode</button>
+    <button className={`c-theme-toggle c-theme-toggle--${activeTheme}`} onClick={() => setActiveTheme(inactiveTheme)}>{formattedThemeName()} Mode</button>
   )
 }
